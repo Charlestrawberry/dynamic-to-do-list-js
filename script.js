@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Add a delete button to the task
       const deleteButton = document.createElement("button");
       deleteButton.textContent = "Delete";
-      deleteButton.classList.add("delete-btn");
+      deleteButton.classList.add("remove-btn");
       deleteButton.addEventListener("click", () => {
         taskList.removeChild(newTask); // Remove the task when delete button is clicked
       });
